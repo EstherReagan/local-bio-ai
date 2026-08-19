@@ -1,0 +1,15 @@
+{
+  "manifest_version": 3,
+  "name": "Local Bio-AI Page Assistant",
+  "version": "1.0.0",
+  "description": "Privacy-first local browser analysis for biological data sequences using offline language engines.",
+  "permissions": [
+    "activeTab"
+  ],
+  "action": {
+    "default_popup": "popup.html"
+  },
+  "host_permissions": [
+    "http://localhost:11434/*"
+  ]
+}
