@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="app-container">
+        <h2>🧬 Bio-AI Local Assistant</h2>
+        <p class="subtitle">Secure Offline Genomic Analysis</p>
+        
+        <div class="status-bar">
+            <span class="indicator green"></span> Ollama Status: Connected
+        </div>
+
+        <textarea id="userPrompt" placeholder="Ask to analyze the page's DNA/Biotech text..."></textarea>
+        
+        <button id="analyzeBtn">Run Local Inference</button>
+        
+        <div id="outputBox" class="hidden">
+            <h3>🔬 Analysis Output:</h3>
+            <p id="resultText">Awaiting input data...</p>
+        </div>
+    </div>
+    <script src="popup.js"></script>
+</body>
+</html>
